@@ -1,0 +1,56 @@
+.wrap{
+    margin: 0px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container{
+    display: inline-block;
+    width: 33%;
+
+}
+h1{
+    color: royalblue;
+    font-size: 28pt;
+    font-weight: 300;
+    text-align: center;
+}
+.box{
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    margin: 30px auto;
+
+}
+.wrap:hover .box{
+    transform: scale(2)
+}
+.box1{
+    background:url(../img/vegeta.png);
+    background-size: 100px;
+    transition: all 300ms;
+}
+.box2{
+    background-image: url(../img/boruto1.jpg);
+    background-size: 100px;
+    transition: all 1s;
+}
+.box3{
+    background:url(../img/goku.jpg);
+    background-size: 100px;
+    transition: all 6s;
+}
+.box4{
+    background:url(../img/madara.jpg);
+    background-size: 100px;
+    transition: all 300ms;
+}
+.box5{
+    background-image: url(../img/naruto.jpg);
+    background-size:100px;
+    transition: all 6s;
+}
+.box6{
+    background:url(../img/onepiece.jpg);
+    background-size: 100px;
+    transition: all 6s;
+}
